@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- css적용할때 링크를 써줘야함 -->
+    <link rel="stylesheet" href="./login_practice.css">
 </head>
 <body>
     <form action="https://server.ai-school.com" method="POST">
@@ -15,7 +17,7 @@
         <input id="userpw" type="password" name="userpw" placeholder="비밀번호를 입력해주세요."/>
         <br/>
         <br/>
-        <select name="sport">
+        <select name="question" id="question">
             <option value="축구">좋아하는 색깔은??</option>
             <option value="농구">좋아하는 동물은??</option>
             <option value="야구">좋아하는 장소는??</option>
@@ -27,7 +29,7 @@
         <input type="text" placeholder="무엇을 좋아하시나요???">
         <br/>
         <br/>
-        <textarea placeholder="자기 소개를 입력해주세요."></textarea>
+        <textarea id="write_self_pr" placeholder="자기 소개를 입력해주세요."></textarea>
         <button type="submit">작성완료</button>
     </form>
 </body>
