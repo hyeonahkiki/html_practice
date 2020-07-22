@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box_wrapper
+        {
+            width: 300px;
+            height: 300px;
+            border: 3px dashed;
+            border-radius: 5px;
+            background-color: lightblue;
+            /* static이 아닌 것을 기준으로 움직인다 */
+            position: relative;
+            left: 100px;
+        }
+        .box
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            border-radius: 5px;
+
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box_wrapper">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
